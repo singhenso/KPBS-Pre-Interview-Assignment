@@ -1,0 +1,135 @@
+:root {
+  --navItemColor: #262d26;
+  --secondaryColor1: #525760;
+  --primaryButtonColor: #006cb4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 1240px;
+}
+
+.nav-items {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: #262d26;
+  text-transform: uppercase;
+}
+
+.nav-items {
+  display: block;
+}
+
+.nav-items-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.nav-item {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.logo {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: block;
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.story {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.story>* {
+  margin: 20px 0;
+}
+
+figcaption {
+  color: var(--secondaryColor1);
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.button--primary {
+  background-color: var(--primaryButtonColor);
+  color: #fff;
+}
+
+.surprise {
+  min-height: 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 20%)
+}
+
+.surprise img {
+  transition: all 1s ease-in;
+}
+
+.surprise img:hover {
+  transform: rotate(360deg);
+}
