@@ -32,6 +32,33 @@ Please complete the following, send to me before the interview, and be prepared 
 4. Create an email or Slack message to a Digital department team member showing how you'd ask for help when you're stuck trying trying to complete a task, fix a bug, or generally get "unstuck". 
 5. The footer has been intentionally left blank. Implement one similar to what appears on kpbs.org.
 
+## 1.4. Document your work to a staff member
+
+Hello (staff member name),
+
+I'm following up with an update regarding the recent request of improving the webpage.
+These edits are applied and are available for review.
+
+A few of the changes include:
+- Removing bugs
+- Improving the look and feel of the site based on the design
+- Improving the functionality for mobile users
+
+Please review and let me know if I can answer any questions or provide additional details.
+
+Best,
+Singh
+
+## 1.5. Create a Slack message to a Digital department team member showing how I'd ask for help
+
+Hi there,
+
+I'm just reaching out regarding a particular task that was given to me.
+I'd like to take only a few minutes of your time to clarify a few questions if that is okay with you.
+
+This is not a high priority task so we can connect at a time that best works for you.
+I appreciate you taking the time and connecting with me on this.
+Thank you
 
 ## 1.3. Notes
 
