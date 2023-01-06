@@ -167,6 +167,8 @@ figcaption {
 
 .surprise img {
   transition: all 1s ease-in;
+  width:80%;
+  margin: 0 auto;
 }
 
 .surprise img:hover {

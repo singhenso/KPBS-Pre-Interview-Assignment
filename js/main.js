@@ -15,8 +15,15 @@ function buttonHandler() {
   // img.src = `data:image/png;base64,${surprise}`;
   surpriseElement.innerHTML += `<span>${emojiList[randomEmoji]}</span>`;
   counts += 1;
-  counts >= 10 ? fixElement.textContent = `Fixed too many times!` : fixElement.textContent = `Fixed ${counts} times!`;
+  counts >= 10 ? fixElement.textContent = `Fixed too many times!` :  fixElement.textContent = `Fixed ${counts} times!`
 
+  if (counts === 10) { addGiphy(); };
+
+  function addGiphy() {
+    var bbb = '<img src="https://media4.giphy.com/media/8lQyyys3SGBoUUxrUp/giphy.gif" alt="Smiley face">';
+    surpriseElement.innerHTML += bbb;
+    
+  }
   setInterval(() => {
     jsConfetti.addConfetti({
       emojis: ['😊 ', '📡', '📻', '✨', '🫠', '😂']
