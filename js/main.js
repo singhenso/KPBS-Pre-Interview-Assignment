@@ -1,6 +1,5 @@
 const btnElement = document.querySelector('#fix-me')
 let counts = 0;
-console.log(counts)
 btnElement.addEventListener('click', () => buttonHandler())
 
 function buttonHandler() {
