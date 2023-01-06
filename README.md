@@ -31,3 +31,8 @@ Please complete the following, send to me before the interview, and be prepared 
 3. Document your work to a staff member that has little to no technical understanding who asked you to resolve one of these issues or implement a design or development request.
 4. Create an email or Slack message to a Digital department team member showing how you'd ask for help when you're stuck trying trying to complete a task, fix a bug, or generally get "unstuck". 
 5. The footer has been intentionally left blank. Implement one similar to what appears on kpbs.org.
+
+
+## 1.3. Notes
+
+- The fix for the JS issues was to have near the end of the body

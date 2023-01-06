@@ -145,3 +145,13 @@ figcaption {
 .container  {
   padding: 0 15px;;
 }
+
+#fix-me {
+  text-align: center;
+  cursor: pointer;
+}
+
+.bold-italic {
+  font-weight: 500;
+  font-style: italic;
+}
