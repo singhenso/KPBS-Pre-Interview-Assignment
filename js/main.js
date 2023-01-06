@@ -7,7 +7,19 @@ function buttonHandler() {
   const img = document.createElement('img')
   img.src = `data:image/png;base64,${surprise}`
   surpriseElement.appendChild(img)
+  setInterval(() => {
+    jsConfetti.addConfetti({
+      emojis: ['😊 ', '📡', '📻','✨','🫠','😂']
+    })
+  }, 2500)
 }
+
+/*============================================================================
+conffeti - Vladmir Nikitin
+https://codepen.io/loonywizard-the-selector/pen/RwVNNge
+  ============================================================================*/
+const jsConfetti = new JSConfetti();
+
 
 /*============================================================================
 Navbar credit from Developer, Évelym S.
