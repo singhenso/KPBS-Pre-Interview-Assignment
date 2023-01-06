@@ -4,14 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Pre-Interview Assignment</title>
 
 </head>
 
 <body>
   <header>
-    <div class="logo">
+    <!-- Navbar Logo -->
+    <div class="desktop-logo">
       <a href="/" aria-label="KPBS">
         <svg viewBox="0 0 935 260" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -32,19 +34,73 @@
         </svg>
       </a>
     </div>
-    <nav>
-      <ul class="nav-items">
-        <li class="nav-items-item"><a href="#" class="nav-item">News</a></li>
-        <li class="nav-items-item"><a href="#" class="nav-item">Arts & Culture</a></li>
-        <li class="nav-items-item"><a href="#" class="nav-item">TV &amp; Radio</a></li>
-        <li class="nav-items-item"><a href="#" class="nav-item">Support KPBS</a></li>
-        <li class="nav-items-item"><a href="#" class="nav-item">Events</a></li>
-      </ul>
+    <nav id="navbar" class="">
+      <div class="nav-wrapper">
+        <!-- Navbar Logo -->
+        <div class="logo">
+          <a href="/" aria-label="KPBS">
+            <svg viewBox="0 0 935 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M252.902 11.0938H306.03V114.573L347.139 63.9508H407.267L354.689 124.637L408.663 215.251H350.22L319.741 163.791L306.03 179.737V215.251H252.902V11.0938Z"
+                fill="black" />
+              <path
+                d="M544.298 139.745V139.178C544.298 119.322 530.595 105.06 513.252 105.06C496.197 105.06 482.503 119.322 482.503 139.178V139.745C482.503 159.872 496.197 174.142 513.252 174.142C530.595 174.142 544.298 160.176 544.298 139.745ZM430.475 63.9509H483.603V84.0865C493.955 71.5007 506.82 60.5908 529.469 60.5908C565.542 60.5908 596.58 90.5191 596.58 138.899V139.457C596.58 188.683 565.543 218.612 529.749 218.612C506.82 218.612 493.396 208.269 483.603 196.8V260H430.475V63.9509Z"
+                fill="black" />
+              <path
+                d="M735.056 139.745V139.178C735.056 119.322 721.353 105.06 704.019 105.06C686.956 105.06 673.253 119.322 673.253 139.178V139.745C673.253 159.88 686.956 174.159 704.044 174.159C721.378 174.159 735.081 160.193 735.081 139.761L735.056 139.745ZM674.403 196.808V215.235H621.242V11.0938H674.378V84.0864C684.721 71.4677 697.586 60.5989 720.236 60.5989C756.309 60.5989 787.346 90.519 787.346 138.899V139.457C787.346 188.683 756.309 218.611 720.515 218.611C697.586 218.611 684.163 208.268 674.378 196.792"
+                fill="black" />
+              <path
+                d="M801.362 196.233L821.21 164.07C838.544 175.571 857.563 181.412 873.229 181.412C882.455 181.412 886.645 178.611 886.645 173.304V172.737C886.645 166.871 878.257 164.349 862.319 159.88C832.399 152.043 808.624 141.979 808.624 111.492V110.901C808.624 78.7379 834.363 60.8368 869.31 60.8368C891.41 60.8368 914.33 67.2694 931.664 78.4586L913.533 112.051C897.875 103.384 880.812 98.0848 868.793 98.0848C860.684 98.0848 856.47 101.166 856.47 105.355V105.914C856.47 111.788 865.137 114.581 881.116 119.346C911.044 127.734 934.811 138.077 934.811 167.446V168.005C934.811 201.285 909.927 218.628 873.016 218.628C847.548 218.628 822.401 211.349 801.428 196.249"
+                fill="black" />
+              <path
+                d="M215.235 106.572C215.029 85.377 208.568 64.7153 196.664 47.1782C184.76 29.6411 167.943 16.0095 148.322 7.99345C128.7 -0.0226305 107.149 -2.0663 86.3704 2.11878C65.5921 6.30387 46.5122 16.5314 31.5241 31.5184C16.536 46.5053 6.30705 65.5845 2.12039 86.3625C-2.06627 107.14 -0.0242241 128.692 7.99038 148.314C16.005 167.936 29.6353 184.754 47.1714 196.66C64.7076 208.565 85.3689 215.027 106.563 215.235H215.235V106.572Z"
+                fill="#006CB4" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Navbar Links -->
+        <ul id="menu">
+          <li><a href="#">News</a></li>
+          <li><a href="#">Arts & Culture</a></li>
+          <li><a href="#">TV &amp; Radio</a></li>
+          <li><a href="#">Support KPBS</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </div>
     </nav>
+
+
+    <!-- Menu Icon -->
+    <div class="menuIcon">
+      <span class="icon icon-bars"></span>
+      <span class="icon icon-bars overlay"></span>
+    </div>
+
+
+    <div class="overlay-menu">
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </header>
 
   <main>
     <div class="story container">
+      <h4>
+        <a href="https://www.kpbs.org/news/local" data-cms-ai="0">Top Stories
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </a>
+      </h4>
+      <img src="img/hero.webp" alt="rain flood mission valley fashion valley trolly">
+      <span class="credit">Roland Lizarondo / KPBS</span>
       <p>
         Ut irure, veniam anim. Anim in irure officia. Irure officia excepteur pariatur eiusmod. Excepteur pariatur
         eiusmod id sint aute ut, laborum. Id, sint aute ut. Ut laborum sunt aute pariatur est. Sunt aute pariatur est
