@@ -220,6 +220,11 @@ footer {
   font-size: 14px;
 }
 
+footer .title {
+  font-weight: 600;
+  font-size:18px;
+  padding-bottom: 10px;
+}
 footer a:hover {
   text-decoration: none;
 }
@@ -548,7 +553,7 @@ table th {
 
   .icon-bars::before {
     background: rgb(13, 26, 38);
-    content: '';
+    content: '';#
     position: absolute;
     left: 0;
     top: -8px;

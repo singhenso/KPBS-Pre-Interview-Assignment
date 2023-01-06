@@ -59,7 +59,7 @@
           </a>
         </div>
         <!-- Navbar Links -->
-        <ul id="menu">
+        <ul>
           <li><a href="#">News</a></li>
           <li><a href="#">Arts & Culture</a></li>
           <li><a href="#">TV &amp; Radio</a></li>
@@ -74,7 +74,7 @@
       <span class="icon icon-bars overlay"></span>
     </div>
     <div class="overlay-menu">
-      <ul id="menu">
+      <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
@@ -83,7 +83,7 @@
     </div>
   </header>
   <main>
-    <div class="story container">
+    <section class="story container">
       <h4>
         <a href="https://www.kpbs.org/news/local">Top Stories
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right"
@@ -93,8 +93,10 @@
           </svg>
         </a>
       </h4>
-      <img src="img/hero.webp" alt="rain flood mission valley fashion valley trolly">
-      <figcaption class="credit">Roland Lizarondo / KPBS</figcaption>
+      <figure>
+        <img src="img/hero.webp" alt="rain flood mission valley fashion valley trolly">
+        <figcaption class="credit">Roland Lizarondo / KPBS</figcaption>
+      </figure>
       <p>
         Ut irure, veniam anim. Anim in irure officia. Irure officia excepteur pariatur eiusmod. Excepteur pariatur
         eiusmod id sint aute ut, laborum. Id, sint aute ut. Ut laborum sunt aute pariatur est. Sunt aute pariatur est
@@ -191,7 +193,8 @@
           est amet id cillum voluptate. Id cillum voluptate sunt reprehenderit. Voluptate sunt reprehenderit quis irure
           enim.
           Reprehenderit quis irure enim, <b>enim ipsum dolor</b>. Enim enim ipsum dolor exercitation. </p>
-    </div>
+
+    </section>
   </main>
   <footer>
     <div class="container">
@@ -202,53 +205,61 @@
           </div>
           <div class="social-menu">
             <ul>
-              <li><a href="https://twitter.com/kpbs" aria-label="twitter link" target="blank"><i class="fab fa-twitter"></i></i></a></li>
-              <li><a href="https://www.instagram.com/kpbs/" aria-label="instagram link" target="blank"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="https://www.tiktok.com/@kpbssandiego" aria-label="tiktok link" target="blank"><i class="fab fa-tiktok"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCP9Zo2a0-bS9oPd_8tl92rQ" aria-label="youtube link" target="blank"><i
-                    class="fab fa-youtube"></i></a></li>
-              <li><a href="https://www.facebook.com/KPBSSanDiego" aria-label="facebook link"><i class="fab fa-facebook" target="blank"></i></a>
+              <li><a href="https://twitter.com/kpbs" aria-label="twitter link" target="blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/kpbs/" aria-label="instagram link" target="blank"><i
+                    class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.tiktok.com/@kpbssandiego" aria-label="tiktok link" target="blank"><i
+                    class="fab fa-tiktok"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCP9Zo2a0-bS9oPd_8tl92rQ" aria-label="youtube link"
+                  target="blank"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="https://www.facebook.com/KPBSSanDiego" aria-label="facebook link"><i
+                    class="fab fa-facebook"></i></a>
               </li>
             </ul>
           </div>
           <img src="img/sdsu.png" alt="SDSU Logo">
         </div>
         <div class="grid-right">
-          <ul class="grid-right--1">
-            <h4>About</h4>
-            <li><a href="https://www.kpbs.org/about-us">About Us &amp; Mission</a>
-            </li>
-            <li><a href="https://www.kpbs.org/about/careers/">Careers</a>
-            </li>
-            <li><a href="https://www.kpbs.org/fcc-financial-and-other-reports">FCC &amp; Financial </a>
-            </li>
-            <li><a href="https://www.kpbs.org/kpbs-on-the-go">Mobile Apps</a>
-            </li>
-            <li><a href="https://www.kpbs.org/tags/press-releases">Press Releases</a>
-            </li>
-            <li><a href="https://www.kpbs.org/privacy-policy">Privacy Policy</a>
-            </li>
-            <li><a href="https://www.kpbs.org/staff/">Staff</a>
-            </li>
-            <li><a href="https://www.kpbs.org/terms-of-service">Terms of Service</a>
-            </li>
-          </ul>
-          <ul class="grid-right--2">
-            <h4>Help</h4>
-            <li><a href="https://www.kpbs.org/kpbs-audience-and-member-services">Audience and Member Services</a>
-            </li>
-            <li><a href="https://www.kpbs.org/closed-captioning">Closed Captioning</a>
-            </li>
-            <li><a href="https://www.kpbs.org/contact-us">Contact Us</a>
-            </li>
-            <li><a href="https://www.kpbs.org/faq">FAQs</a>
-            </li>
-            <li><a href="https://www.kpbs.org/radio/livestream#how-do-i-listen">How do I listen? </a>
-            </li>
-          </ul>
-          <ul class="grid-right--3">
-            <h4>Give</h4>
-            <ul class="FooterNavigationItem-items">
+          <div class="grid-right--1">
+            <span class="title">About</span>
+            <ul class="grid-right--1">
+              <li><a href="https://www.kpbs.org/about-us">About Us &amp; Mission</a>
+              </li>
+              <li><a href="https://www.kpbs.org/about/careers/">Careers</a>
+              </li>
+              <li><a href="https://www.kpbs.org/fcc-financial-and-other-reports">FCC &amp; Financial </a>
+              </li>
+              <li><a href="https://www.kpbs.org/kpbs-on-the-go">Mobile Apps</a>
+              </li>
+              <li><a href="https://www.kpbs.org/tags/press-releases">Press Releases</a>
+              </li>
+              <li><a href="https://www.kpbs.org/privacy-policy">Privacy Policy</a>
+              </li>
+              <li><a href="https://www.kpbs.org/staff/">Staff</a>
+              </li>
+              <li><a href="https://www.kpbs.org/terms-of-service">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid-right--2">
+            <span class="title">Help</span>
+            <ul>
+              <li><a href="https://www.kpbs.org/kpbs-audience-and-member-services">Audience and Member Services</a>
+              </li>
+              <li><a href="https://www.kpbs.org/closed-captioning">Closed Captioning</a>
+              </li>
+              <li><a href="https://www.kpbs.org/contact-us">Contact Us</a>
+              </li>
+              <li><a href="https://www.kpbs.org/faq">FAQs</a>
+              </li>
+              <li><a href="https://www.kpbs.org/radio/livestream#how-do-i-listen">How do I listen? </a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid-right--3">
+            <span class="title">Give</span>
+            <ul>
               <li><a href="https://www.kpbs.org/corporate-sponsorship">Corporate Support</a>
               </li>
               <li><a
@@ -264,7 +275,7 @@
               <li><a href="https://www.kpbs.org/give/car-donations">Vehicle Donation</a>
               </li>
             </ul>
-          </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -36,3 +36,7 @@ Please complete the following, send to me before the interview, and be prepared 
 ## 1.3. Notes
 
 - The fix for the JS issues was to have near the end of the body
+- Built using VScode text editor
+- Used ARIA for ADA Compliance and used Wave Evaluation tool for testing
+- Update the Fix Me feature with some additional JavaScript
+- Cleared the bugs in the HTML that included unclosed tags. Tested with The W3C Markup Validation Service
