@@ -11,7 +11,7 @@ function buttonHandler() {
   const emojiList = ['👀', '😊 ', '📡', '📻', '✨', '🫠', '😂', '🐻', '🙈'];
   const randomEmoji = Math.floor(Math.random() * emojiList.length);
 
-  // replaced SVG with emoji icon
+  // replaced SVG with emoji icon =============================================
   // img.src = `data:image/png;base64,${surprise}`;
   surpriseElement.innerHTML += `<span>${emojiList[randomEmoji]}</span>`;
   counts += 1;

@@ -174,12 +174,6 @@ figcaption {
 }
 
 /* New CSS */
-
-.container {
-  padding: 0 15px;
-
-}
-
 .container img {
   margin-bottom: 0;
 }
@@ -213,6 +207,79 @@ figcaption {
 
 .btn:hover {
   opacity: .8;
+}
+
+/*======================================================
+                     Footer
+    ======================================================*/
+footer {
+  background-color: var(--navItemColor);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  padding: 5px 0;
+}
+
+footer .grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 50px;
+}
+
+footer .grid .grid-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* social media icons */
+.social-menu ul {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fab {
+  font-size: 15px;
+  line-height: 40px;
+  transition: .3s;
+  color: #fff;
+}
+
+.social-menu ul li .fab:hover {
+  color: var(--primaryButtonColor);
+}
+
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10%);
 }
 
 /*======================================================
@@ -280,7 +347,7 @@ table th {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
-    text-align: right;
+    text-align: left;
   }
 
   table td::before {
@@ -312,7 +379,6 @@ table th {
   padding-top: 35px;
   height: 0;
   overflow: hidden;
-
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -354,7 +420,6 @@ table th {
     width: 100%;
   }
 }
-
 
 .logo {
   float: left;
@@ -454,13 +519,10 @@ table th {
   /* transition: 0s; */
 }
 
-
-
 /*======================================================
                       Mobile Menu Menu Icon
     ======================================================*/
 @media(max-width: 640px) {
-
   .menuIcon {
     cursor: pointer;
     display: block;
@@ -622,7 +684,6 @@ table th {
     }
   }
 
-
   /* Toggle Menu Icon */
   .menuIcon.toggle .icon-bars {
     top: 5px;
@@ -651,7 +712,6 @@ table th {
     transition: all 0s ease 0s;
   }
 }
-
 
 /*======================================================
                      Responsive Mobile Menu 
@@ -698,4 +758,19 @@ table th {
   color: rgb(28, 121, 184);
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+  footer .grid {
+    grid-template-columns: 1fr;
+  }
+
+  footer .grid .logo-footer img {
+    width: 200px;
+  }
+
+  footer .grid .grid-right {
+    grid-template-columns: 1fr;
+  }
 }
